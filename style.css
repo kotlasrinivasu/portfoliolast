@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightcyan;
+    color: #333333;
+}
+
+/* Header */
+.header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header a {
+    color: white;
+
+    margin: 0 10px;
+}
+
+/* Matter */
+.matter {
+    background-image: url(andrej-lisakov-3A4XZUopCJA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.matter h1 {
+    font-size: 48px;
+}
+
+.matter p {
+    font-size: 24px;
+}
+
+.matter hr {
+    border-color: white;
+    width: 20%;
+    margin: 20px auto;
+}
+
+.matter button {
+    background-color: transparent;
+    border: 2px solid rgb(170, 180, 227);
+    color: rgb(13, 12, 12);
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	margin-left: 70%;
+}
+
+.matter button:hover {
+    background-color: rgb(23, 21, 21);
+    color: #fff3f3;
+}
+
+/* Study */
+.study {
+    background-color: #b3a6a6;
+    padding: 50px;
+    text-align: center;
+}
+
+.study h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+	color: black;
+}
+
+.study p {
+    font-size: 18px;
+}
+
+/* Skills */
+.skills{
+	background-image:url(bg2.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+.footer{
+	background-color: rgb(124, 121, 117);
+}
+.right{
+	background-color: black;
+	text-align: center;
+}
